@@ -84,3 +84,11 @@ print(cnt)
 #remove(): 특정 원소를 하나 제거한다.
 list.remove(0)
 print(list)
+
+
+########## 리스트 자료형 활용 ############
+remove_set = {3,5}
+#기존 리스트에서 특정 값들을 제거하고 뽑아야 할때 사용
+resultList = [i for i in list if i not in remove_set] 
+print(resultList)
+
